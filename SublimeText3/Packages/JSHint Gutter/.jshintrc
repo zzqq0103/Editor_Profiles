@@ -1,0 +1,33 @@
+{
+  // The plugin looks for a .jshintrc file in the same directory as the source
+  // file you're prettifying (or any directory above if it doesn't exist, or in
+  // your home folder if everything else fails) and uses those options along
+  // the default ones.
+
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/options/
+  "browser": true,
+  "esnext": true,
+  "globals": {},
+  "strict": "global",
+  "undef": true,
+  "unused": true
+  "globalstrict": false, //不再提醒 use strict
+  "undef": true,  //不提醒 未定义变量
+  "curly": true,//表示所有的代码块必须使用大括号
+  "eqeqeq": true,//表示判断相等时，必须使用===
+  "immed": false,//表示立即执行函数必须用括号包起来,此处不一定
+  "noarg": true,//表示noarg 表示禁止使用 `arguments.caller` 和
+                //`arguments.callee`
+  "noempty": true,//表示禁止出现空的代码块·{}·
+  "quotmark": "false",//引号的使用规则，有以下四个选项:
+
+  //false : 不检查
+  //true : 检查一致性（要么都是单引号，要么都是双引号）
+  //single : 必须都是单引号
+  //double : 必须都是双引号
+  "undef": true,//undef 表示所有的局部变量都必须先声明再使用
+  "unused": false,//unused 表示禁止变量已经声明，但却不使用,此处不禁用。
+  "node": true//node 表明你的项目是NodeJS项目，require等node特有的全局函数将通过检查
+}

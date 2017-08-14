@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AutoFileName",
+		"Better Completion",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSS Format",
+		"CSS3",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"JavaScript & NodeJS Snippets",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
+		"JSHint Gutter",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Nodejs",
+		"npm",
+		"Package Control",
+		"PackageResourceViewer",
+		"rem-unit",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SyncedSideBar",
+		"Terminal"
+	]
+}
